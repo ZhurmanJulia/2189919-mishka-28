@@ -1,1 +1,15 @@
-// Начните писать стили здесь
+@use "global/global.scss";
+@use "global/fonts.scss";
+@use "global/variables.scss";
+@use "blocks/page.scss";
+@use "blocks/logo.scss";
+@use "blocks/header.scss";
+@use "blocks/heading.scss";
+@use "blocks/intro.scss";
+@use "blocks/product.scss";
+@use "blocks/about.scss";
+@use "blocks/feedback.scss";
+@use "blocks/contacts.scss";
+@use "blocks/footer.scss";
+@use "blocks/socials.scss";
+@use "blocks/visually-hidden.scss";
