@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="../public/fonts/opensans.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="../public/fonts/opensansbold.woff2" as="font" type="font/woff" crossorigin="anonymous">
+    <title>Каталог товаров</title>
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <a class="header__logo logo">
+        <span class="visually-hidden">Логотип сайта.</span>
+        <picture>
+          <img class="header__logo-icon" src="img/stack.svg#mishka-logo-mobile" width="86" height="35" alt="Логотип сайта с текстом мишка.">
+        </picture>
+      </a>
+      <nav class="header__navigation header__navigation--no-js">
+        <button class="header__navigation-toggle" type="button">
+          <span class="visually-hidden">Открыть или закрыть меню.</span>
+        </button>
+        <div class="header__navigation-menu">
+          <ul class="header__navigation-list-main">
+            <li class="header__navigation-main-item">
+              <a class="header__navigation-main-link" href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="header__navigation-main-item">
+              <a class="header__navigation-main-link" href="form.html">Вязание на заказ</a>
+            </li>
+          </ul>
+          <ul class="header__navigation-list-user">
+            <li class="header__navigation-user-item">
+              <a class="header__navigation-user-link" href="#">
+                <svg class="header__navigation-user-icon" width="18" height="18" fill="currentColor">
+                  <use href="img/stack.svg#header__search-icon">
+                </svg>
+                <span class="header__navigation-user-teaxt">Поиск по сайту</span>
+              </a>
+            </li>
+            <li class="header__navigation-user-item">
+              <a class="header__navigation-user-link" href="#">
+                <svg class="header__navigation-user-icon" width="18" height="18" fill="currentColor">
+                  <use href="img/stack.svg#header__cart-icon">
+                </svg>
+                <span class="header__navigation-user-teaxt">Корзина: пока пуста</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="header__navigation-list-info">
+            <li class="header__navigation-info-item">
+              <a class="header__navigation-info-link" href="#">Новые поступления</a>
+            </li>
+            <li class="header__navigation-info-item">
+              <a class="header__navigation-info-link" href="#">Распродажа</a>
+            </li>
+          </ul>
+          <p class="header__additional-info">Бесплатная доставка по России</p>
+        </div>
+      </nav>
+    </header>
+    <main class="page__main">
+      <section class="intro">
+        <h1 class="intro__heading heading">Каталог товаров</h1>
+      </section>
+      <section class="catalog">
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <picture>
+                <img class="catalog__image" src="img/catalog__image--mobile-rabbit.jpg" srcset="img/catalog__image--mobile-rabbit.jpg 1x, img/catalog__image--mobile-rabbit@2x.jpg 2x" loading="lazy" alt="Вязаный кролик в голубом костюме." width="260" height="195">
+              </picture>
+            </a>
+            <div class="catalog__info">
+              <div class="catalog__info-container">
+                <h2 class="catalog__heading">
+                  <a class="catalog__heading-link" href="#">Зайчик-попрыгайчик</a>
+                </h2>
+                <p class="catalog__description">Рост 30 см, вес 200 г</p>
+              </div>
+              <div class="catalog__buy">
+                <span class="catalog__price">1 200 руб.</span>
+                <a class="catalog__button" href="#">
+                  <span class="visually-hidden">Добавить в корзину.</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <picture>
+                <img class="catalog__image" src="img/catalog__image--mobile-box.jpg" srcset="img/catalog__image--mobile-box.jpg 1x, img/catalog__image--mobile-box@2x.jpg 2x" loading="lazy" alt="Полотенца в вязаной корзинке бело-розового цвета." width="260" height="195">
+              </picture>
+            </a>
+            <div class="catalog__info">
+              <div class="catalog__info-container">
+                <h2 class="catalog__heading">
+                  <a class="catalog__heading-link" href="#">Корзинка для белья</a>
+                </h2>
+                <p class="catalog__description">Диаметр 15 см, высота 10 см</p>
+              </div>
+              <div class="catalog__buy">
+                <span class="catalog__price">690 руб.</span>
+                <a class="catalog__button" href="#">
+                  <span class="visually-hidden">Добавить в корзину.</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <picture>
+                <img class="catalog__image" src="img/catalog__image--mobile-toys.jpg" srcset="img/catalog__image--mobile-toys.jpg 1x, img/catalog__image--mobile-toys@2x.jpg 2x" loading="lazy" alt="Мягкие игрушки звери в большой корзинке бело-зеленого цвета." width="260" height="195">
+              </picture>
+            </a>
+            <div class="catalog__info">
+              <div class="catalog__info-container">
+                <h2 class="catalog__heading">
+                  <a class="catalog__heading-link" href="#">Большая корзинка для игрушек</a>
+                </h2>
+                <p class="catalog__description">Диаметр 30 см, высота 30 см</p>
+              </div>
+              <div class="catalog__buy">
+                <span class="catalog__price">1 500 руб.</span>
+                <a class="catalog__button" href="#">
+                  <span class="visually-hidden">Добавить в корзину.</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="production">
+        <div class="production__columns">
+          <div class="production__column-info">
+            <h2 class="production__heading production__heading--camera">Процесс производства</h2>
+            <div class="production__separation">
+              <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+              <a class="production__button" href="#">Сделать заказ</a>
+            </div>
+          </div>
+          <div class="production__column-video video">
+            <button class="video__button" type="button" aria-label="Воспроизвести видео"></button>
+            <a class="video__link" href="#" target="_blank" rel="noopener noreferrer">
+              <picture>
+                <img class="video__image" src="img/video--mobile.jpg" srcset="img/video--mobile.jpg 1x, img/video--mobile@2x.jpg 2x" loading="lazy" alt="Видео с процессом производства товаров." width="260" height="150">
+              </picture>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <a class="footer__logo logo">
+          <span class="visually-hidden">Логотип сайта.</span>
+          <picture>
+            <img class="header__logo-icon" src="img/stack.svg#mishka-logo-mobile" width="86" height="35" alt="Логотип сайта с текстом мишка.">
+          </picture>
+        </a>
+        <ul class="footer__socials socials">
+          <li class="socials__item">
+            <a class="socials__link socials__link--vk" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Перейти во Вконтакте.</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Перейти в Ютуб.</span>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--telegram" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Перейти в Телеграм.</span>
+            </a>
+          </li>
+        </ul>
+        <a class="footer__copyrights" href="https://htmlacademy.ru/intensive/adaptive">
+          <svg class="footer__copyrights-svg" width="27" height="35" fill="currentColor">
+            <use href="img/stack.svg#htmlacademy"/>
+          </svg>
+          Разработано
+          <span class="visually-hidden">Перейти на сайт html academy.</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
